@@ -1,0 +1,18 @@
+.brand {
+    display: inline-block;
+
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    color: blue;
+
+    font-family: "Bodoni MT Black";
+
+    float: left;
+}
+
+.login {
+    float: right;
+}
