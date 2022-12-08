@@ -9,5 +9,11 @@
     /*background-color: aliceblue;*/
 }
 
-.menu-element a {
-    text-underline: none}
+.menu-element {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-element:hover {
+    color: green;
+}

@@ -1,0 +1,94 @@
+.comments {
+    margin-bottom: 60px;
+}
+
+.comments-content {
+    border-radius: 40px;
+
+    padding: 60px;
+
+    height: 870px;
+}
+
+.comments-title {
+    margin-top: 50px;
+
+    padding-top: 20px;
+
+    text-align: center;
+
+    width: 30%;
+    height: 70px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 40px 40px 0 0;
+
+    background-color: black;
+
+    font-size: 40px;
+
+    color: white;
+}
+
+.comments-title h2 {
+    display: inline-block;
+
+    font-weight: normal;
+
+    margin: 0;
+
+    font-size: 40px;
+}
+
+.comment{
+    width: 60%;
+    height: 140px;
+
+    background-color: white;
+
+    border-radius: 20px;
+
+    margin-bottom: 50px;
+
+    padding: 20px;
+}
+
+.comment-photo {
+    width: 23%;
+    float: left;
+}
+
+.comment-photo img {
+    width: 100%;
+}
+
+.comment-content {
+    float: right;
+    width: 70%;
+
+    margin-left: 20px;
+
+    font-size: 18px;
+
+    text-align: justify;
+}
+
+.comment-name {
+    padding-bottom: 10px;
+
+    font-weight: bold;
+}
+
+.comments-content {
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.comment:nth-child(odd) {
+    margin-right: auto;
+}
+
+.comment:nth-child(even) {
+    margin-left: auto;
+}

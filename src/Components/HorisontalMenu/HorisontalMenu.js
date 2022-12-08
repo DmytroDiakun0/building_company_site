@@ -4,12 +4,14 @@ import './HorisontalMenu.css'
 
 import MenuElement from '../MenuElement/MenuElement'
 
-function HorisontalMenu() {
+function HorisontalMenu(props) {
     return (
         <div className="horisontal-menu">
-            <MenuElement />
-            <MenuElement />
-            <MenuElement />
+            {props.links.map( (link) => {
+                return(
+                    <MenuElement link={link} />
+                );
+            })}
         </div>
     );
 }

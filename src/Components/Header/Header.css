@@ -1,4 +1,62 @@
+.header {
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: black;
+    color: white;
+}
+
 .brand {
+    display: inline-block;
+
+    height: 41px;
+    width: 150px;
+
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    color: black;
+
+    font-family: sans-serif;
+
+    float: left;
+
+    background-color: seagreen;
+}
+
+.brand-logo {
+    display: inline-block;
+
+
+}
+
+.brand-name {
+    display: inline-block;
+
+    margin-bottom: 24px;
+}
+
+.brand-logo img {
+    width: 100%;
+}
+
+.login {
+    float: right;
+}
+
+.main-menu {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.header-button {
+    float: right;
+}
+
+.header-button a {
     display: inline-block;
 
     padding-right: 20px;
@@ -6,13 +64,19 @@
     padding-top: 20px;
     padding-bottom: 20px;
 
-    color: blue;
+    border-radius: 0;
 
-    font-family: "Bodoni MT Black";
+    background-color: seagreen;
 
-    float: left;
+    border: 0px;
+
+    font-family: sans-serif;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
 }
 
-.login {
-    float: right;
+.header-button a:hover {
+    cursor: pointer;
+    background-color: yellowgreen;
 }

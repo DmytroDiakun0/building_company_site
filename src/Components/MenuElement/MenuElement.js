@@ -1,11 +1,10 @@
 import React from 'react';
+
 import './MenuElement.css'
 
-function MenuElement() {
+function MenuElement(props) {
     return (
-        <div className="menu-element">
-            <a href="#"> Головна </a>
-        </div>
+        <a className="menu-element" href={props.link.href}>{props.link.name}</a>
     );
 }
 

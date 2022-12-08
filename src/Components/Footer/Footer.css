@@ -1,0 +1,35 @@
+.footer {
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: black;
+    color: white;
+
+    height: 100px;
+}
+
+.footer * {
+    display: inline-block;
+
+    font-size: 18px;
+}
+
+.footer-text {
+    margin: 38px;
+    margin-left: 60px;
+}
+
+.footer-link a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-link {
+    float: right;
+
+    margin: 38px;
+    margin-right: 160px;
+}
+
+.footer-link a:hover {
+    color: seagreen;
+}

@@ -1,0 +1,49 @@
+.properties {
+    margin-top: 50px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+
+    height: 200px;
+    width: auto;
+
+    background-color: black;
+
+    border-radius: 40px 40px 0 0;
+}
+
+.row {
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+.row * {
+    flex-grow: 1;
+}
+
+.ContainerOne {
+    width: 25%;
+
+    color: white;
+
+    text-align: center;
+
+    border-right: 10px white;
+}
+
+.ContainerOne img {
+    width: 100%;
+}
+
+.ContainerOne span:first-child {
+    font-size: 40px;
+}
+
+.ContainerOne span:last-child {
+    font-size: 20px;
+}
