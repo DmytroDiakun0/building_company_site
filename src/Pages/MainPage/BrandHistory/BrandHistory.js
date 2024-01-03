@@ -5,7 +5,6 @@ import './BrandHistory.css'
 import treeImage from '../../../Images/tree.png';
 
 function BrandHistory() {
-
     return (
         <div className="brand-history">
             <div className="container-two">
